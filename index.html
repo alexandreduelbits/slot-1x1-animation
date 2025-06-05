@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot 1x1 - Animation</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="slot-container">
+      <h1>Slot 1x1</h1>
+
+      <div class="slot-screen">
+        <div class="slot-row" id="slotRow1"></div>
+        <div class="slot-row" id="slotRow2"></div>
+        <div class="slot-row" id="slotRow3"></div>
+      </div>
+
+      <div class="slot-actions">
+        <select id="lane1Value">
+          <option value="0">Cherry</option>
+          <option value="1" selected>Lemon</option>
+          <option value="2">Orange</option>
+          <option value="3">Star</option>
+          <option value="4">Grape</option>
+          <option value="5">Watermelon</option>
+          <option value="6">Diamond</option>
+        </select>
+
+        <select id="lane2Value">
+          <option value="0">Cherry</option>
+          <option value="1">Lemon</option>
+          <option value="2">Orange</option>
+          <option value="3" selected>Star</option>
+          <option value="4">Grape</option>
+          <option value="5">Watermelon</option>
+          <option value="6">Diamond</option>
+        </select>
+
+        <select id="lane3Value">
+          <option value="0">Cherry</option>
+          <option value="1">Lemon</option>
+          <option value="2">Orange</option>
+          <option value="3">Star</option>
+          <option value="4">Grape</option>
+          <option value="5" selected>Watermelon</option>
+          <option value="6">Diamond</option>
+        </select>
+      </div>
+
+      <div>
+        <button id="spinButton">Spin</button>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

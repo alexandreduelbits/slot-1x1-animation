@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b8b8b8;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.slot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.slot-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 20%;
+  height: 150px;
+  border: 1px solid #333;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+@media (width < 768px) {
+  .slot-screen {
+    width: 90%;
+  }
+}
+
+@media (width >= 768px) {
+  .slot-screen {
+    width: 60%;
+  }
+}
+
+@media (width >= 992px) {
+  .slot-screen {
+    width: 20%;
+  }
+}
+
+.slot-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.slot-item {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  justify-content: center;
+  height: 90px;
+  color: #fff;
+  background-color: rgb(99, 99, 99);
+}
+
+#slotRow2 {
+  border: 1px solid #818181;
+}
+
+.slot-actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 300px;
+  gap: 5px;
+}
+
+.slot-actions select {
+  flex: 1;
+}
