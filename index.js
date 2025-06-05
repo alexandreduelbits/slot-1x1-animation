@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
   updateSlotRow(slotRow3, lane3Items);
 
   spinButton.addEventListener("click", function () {
-    spinLane(slotRow1, +lane1Option.value, orderItemsLane1, 0.5);
-    spinLane(slotRow2, +lane2Option.value, orderItemsLane2, 0.75);
-    spinLane(slotRow3, +lane3Option.value, orderItemsLane3, 1);
+    spinLane(slotRow1, +lane1Option.value, orderItemsLane1, 1);
+    spinLane(slotRow2, +lane2Option.value, orderItemsLane2, 1.25);
+    spinLane(slotRow3, +lane3Option.value, orderItemsLane3, 1.5);
   });
 });
