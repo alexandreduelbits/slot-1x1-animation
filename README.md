@@ -4,4 +4,4 @@ Simple 1x1 slot animation
 
 ### Live Preview
 
-https://alexandreduelbits.github.io/slot-1x1-animation/
+https://alexandreduelbits.github.io/slot-1x3-animation/
