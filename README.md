@@ -1,6 +1,6 @@
 ## Slot 1x1 Animation
 
-Simple 1x1 slot animation
+Simple 1x3 grid slot animation
 
 ### Live Preview
 
